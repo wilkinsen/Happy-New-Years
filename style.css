@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Pacifico');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
 
 *, *:after, *:before{
   box-sizing:border-box;
@@ -8,7 +10,7 @@
   transition: all 100ms ease-in;
 }
 html{
-	background: #222048;
+	background: #333;
 }
 .feliz{
   width: 100%;
@@ -39,12 +41,12 @@ html{
   font-family: 'Montserrat', sans-serif;
   font-size: 175px;
   font-weight: 700;
-  color: #7a8fe8;
+  color: #fff;
 }
 span.seis{
   position: absolute;
   top: 50%;
-  right: 49%;
+  right: 48%;
   margin-right: -200px;
   animation: vai_2016 5s ease-in-out 5s forwards;
 }
@@ -60,7 +62,7 @@ span.sete:before{
   height: 6px;
   display: block;
   border-radius: 3px;
-  background: #7a8fe8;
+  background: blanchedalmond;
   transform: rotate(0deg);
   transform-origin: left top;
   position: absolute;
@@ -175,7 +177,7 @@ span.sete:before{
   background: #f5cc06;
   position: absolute;
   bottom: -60px;
-  left: 2px;
+  left: 10px;
 }
 .fogos>div span i:before{
   content: '';
@@ -197,12 +199,12 @@ span.sete:before{
   background: #fff;
   position: absolute;
   top: -15px;
-  right: 10px;
+  right: 15px;
 }
 a.author{
   font-size: 12px;
   text-decoration: none;
-  color: #f47c7c;
+  color: #f5cc06;
   position: fixed;
   bottom: 10px;
   right: 10px;
